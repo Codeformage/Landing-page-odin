@@ -1,0 +1,41 @@
+/*Organised from order of the page top to bottom*/
+*{
+    font-family: "Roboto";
+}
+body{
+    margin: 0px;
+}
+#ul_header {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+a{
+    text-decoration:none;  
+    color: #E5E7EB;
+    size: 18px;
+}
+#header_logo{
+    font-size: 24px;
+    color: #F9FAF8;
+    font-weight: bold;
+}
+.landing {
+    display: flex;
+    flex-direction: column;
+}
+#section_1{
+    background-color: aquamarine;
+    padding: 0px 220px 0 220px;
+}
+.header{
+    display: flex;
+    background-color: #1F2937;
+    justify-content: space-between;
+    align-items: center;
+}
+#container_section_1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
